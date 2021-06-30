@@ -371,7 +371,7 @@ p:last-child { margin-bottom: 0; }
 .table-social {
     display: grid;
     align-items: center;
-    justify-items: center;
+    justify-items: left;
     border: black;
     align-self: center;
 }
