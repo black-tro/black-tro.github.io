@@ -4,13 +4,19 @@
 	<meta charset="utf-8">
 	<title>404</title>
 </head>
-<body style="background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+<body onload="playSound('js.mp3');" style="background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
 
 <h1 id="h1" style="color: black;">404</h1>
 
 <button onclick="playSound('js.mp3');">01110010001111010100ok</button>
-<script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script>
+	
+</script>
+
+<script>
 	function playSound(url) {
   const audio = new Audio(url);
   document.body.style.backgroundImage = "url('agatha-dark-deception-dark-deception.gif')";
@@ -18,7 +24,6 @@
   h1.style.color="white";
   audio.play();
 }
-
 </script>
 
 </body>
